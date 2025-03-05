@@ -61,6 +61,7 @@ This chatbot is not a replacement for professional therapy but serves as a first
    5️⃣ Run the Chatbot
 
 📝 Usage Instructions
+
          1️⃣ Open the chatbot GUI.
          2️⃣ Speak or type your message.
          3️⃣ The chatbot will generate a response and read it aloud.
@@ -71,11 +72,13 @@ This chatbot is not a replacement for professional therapy but serves as a first
 🔬 Model Training & Fine-Tuning Process
 
   Dataset Used
+  
          -> Mental Health Conversations Dataset from Hugging Face
          -> Contains 3,500+ real counseling sessions (fully anonymized).
          -> Preprocessed using NLP techniques (lowercasing, punctuation removal, stopwords filtering).
 
   Fine-Tuning on GPT-3.5 Turbo
+  
          -> Data formatted as JSONL.
          -> Uploaded to OpenAI for fine-tuning:
 
@@ -83,31 +86,38 @@ This chatbot is not a replacement for professional therapy but serves as a first
                       training_file="dataset.jsonl",
                       model="gpt-3.5-turbo"
                   )
-  Speech Processing & TTS            
-     -> speech_recognition used for speech-to-text.
-     -> pyttsx3 used for text-to-speech AI responses.       
+                  
+  Speech Processing & TTS     
+  
+              -> speech_recognition used for speech-to-text.
+              -> pyttsx3 used for text-to-speech AI responses.       
 
 
 📊 Performance & Limitations
+
 ✅ Strengths:
+
          ✔️ Provides empathetic and meaningful responses.
          ✔️ Supports speech-based interaction, making it accessible.
          ✔️ Works well for common mental health concerns (anxiety, grief, motivation).
          ✔️ Lightweight Tkinter-based GUI for easy usability.
 
 ⚠️ Limitations:
+
          ❌ May generate generic responses for complex mental health conditions.
          ❌ Requires internet access for API calls.
          ❌ Limited accuracy in handling speech recognition errors.
          ❌ Not a replacement for licensed therapy professionals.
 
 🔮 Future Enhancements
+
          🚀 Improve Speech Recognition – Fine-tune model to handle accent variations & background noise.
          🚀 Context-Aware Responses – Enable chatbot to track longer conversations.
          🚀 Sentiment Analysis – Adjust chatbot tone based on user emotional state.
          🚀 Mobile App Version – Implement chatbot as a cross-platform mobile application. 
 
 💼 Contributors
+
          Smriti Parajuli	AI Model Implementation & NLP Processing
          Gloria Hawkins-Roberts	GUI & Speech Processing Development
 
