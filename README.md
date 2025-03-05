@@ -125,6 +125,7 @@ This chatbot is not a replacement for professional therapy but serves as a first
 
   This project is for educational and research purposes only. Do not use it as a substitute for professional mental health services.
 
+
 References
 
-  For detailed references and literature review, please check the full PBT205FinalReport - Final Prototype Report included in this repository.
+           For detailed references and literature review, please check the full PBT205FinalReport - Final Prototype Report included in this repository.
