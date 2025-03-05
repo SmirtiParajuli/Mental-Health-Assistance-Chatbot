@@ -29,10 +29,11 @@ This chatbot is not a replacement for professional therapy but serves as a first
 📁 Dataset
 
  Mental Health Counseling Conversations Dataset (Hugging Face)
-           - 3,500+ counseling interactions between individuals and psychologists
-           - Sourced from two online therapy platforms
-           - Structured in JSON format
-           - Anonymized & cleaned for ethical AI use
+ 
+                    - 3,500+ counseling interactions between individuals and psychologists
+                    - Sourced from two online therapy platforms
+                    - Structured in JSON format
+                    - Anonymized & cleaned for ethical AI use
 
 
 🚀 How to Run the Chatbot Locally
