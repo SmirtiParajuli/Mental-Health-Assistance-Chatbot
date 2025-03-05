@@ -118,8 +118,9 @@ This chatbot is not a replacement for professional therapy but serves as a first
 
 💼 Contributors
 
-         Smriti Parajuli	AI Model Implementation & NLP Processing
-         Gloria Hawkins-Roberts	GUI & Speech Processing Development
+Smriti Parajuli	AI Model Implementation & NLP Processing
+Gloria Hawkins-Roberts	GUI & Speech Processing Development
 
 📜 License
-         This project is for educational and research purposes only. Do not use it as a substitute for professional mental health services.
+
+  This project is for educational and research purposes only. Do not use it as a substitute for professional mental health services.
